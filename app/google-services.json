@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "807545232932",
+    "firebase_url": "https://gokenya-c39ed.firebaseio.com",
+    "project_id": "gokenya-c39ed",
+    "storage_bucket": "gokenya-c39ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807545232932:android:cbc5e5937d184e3b0cc2b1",
+        "android_client_info": {
+          "package_name": "gokenya.safari.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807545232932-ub3mooc1htgj28jih26ckr9lfttf36h7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gokenya.safari.com",
+            "certificate_hash": "b106b5d14d72976ceb61334d348810ff38bdf2d2"
+          }
+        },
+        {
+          "client_id": "807545232932-aqpih93h6oh64i036ph43js4qtu6agl6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbhmUrGg7nODK1DLqmqX4PxpJfxsOZep0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "807545232932-aqpih93h6oh64i036ph43js4qtu6agl6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

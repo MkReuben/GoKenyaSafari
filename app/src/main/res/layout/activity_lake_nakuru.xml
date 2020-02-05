@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".TopTourSafaris.LakeNakuru">
+
+    <TextView
+        android:id="@+id/tv_masai_nakuru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lake Nakuru-Masai Mara Safari"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp"
+        />
+<TextView
+    android:id="@+id/tv_details"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/lake_nakuru"
+    android:layout_below="@id/tv_masai_nakuru"
+    android:textSize="17dp"
+    android:textColor="@android:color/black"
+    android:layout_marginLeft="14dp"
+    />
+
+    <ListView
+        android:id="@+id/lake_nakuru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_details"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        />
+</RelativeLayout>

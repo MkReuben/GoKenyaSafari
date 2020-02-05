@@ -1,0 +1,161 @@
+<resources xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    &lt;!&ndash; Base application theme. &ndash;&gt;-->
+<!--    <style android:name="AppTheme" android:parent="Theme.AppCompat.Light.DarkActionBar">-->
+<!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+<!--        <item android:name="colorPrimary"-->
+<!--            android:title="TODO">@color/colorPrimary</item>-->
+<!--        <item android:name="colorPrimaryDark"-->
+<!--            tools:ignore="MenuTitle">@color/colorPrimaryDark</item>-->
+<!--        <item android:name="colorAccent"-->
+<!--            android:title="TODO">@color/md_grey_600</item>-->
+<!--    </style>-->
+
+<!--    <style android:name="WhiteTheme" android:parent="Theme.AppCompat.Light.NoActionBar">-->
+<!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+<!--        <item android:name="colorPrimary"-->
+<!--            android:title="TODO">@color/colorPrimary</item>-->
+<!--        <item android:name="colorPrimaryDark"-->
+<!--            android:title="TODO">@color/darkWhite</item>-->
+<!--        <item android:name="colorAccent"-->
+<!--            android:title="TODO">@color/colorAccent</item>-->
+<!--    </style>-->
+
+<!--    <style android:name="AppTheme.RoundedCornerMaterialButton" android:parent="Widget.AppCompat.Button.Colored">-->
+<!--        <item android:name="android:background"-->
+<!--            android:title="TODO">@drawable/rounded_shape</item>-->
+<!--        <item android:name="colorButtonNormal"-->
+<!--            android:title="TODO">@color/colorPrimary</item>-->
+<!--        <item android:name="android:textColor"-->
+<!--            android:title="TODO">@color/colorPrimaryDark</item>-->
+<!--        <item android:name="android:paddingLeft"-->
+<!--            android:title="TODO">20dp</item>-->
+<!--        <item android:name="android:paddingRight"-->
+<!--            android:title="TODO">20dp</item>-->
+<!--    </style>-->
+
+<!--    <style android:name="AppTheme.RoundedCornerDarkMaterialButton" android:parent="Widget.AppCompat.Button.Colored">-->
+<!--        <item android:name="android:background"-->
+<!--            android:title="TODO">@drawable/dark_rounded_shape</item>-->
+<!--        <item android:name="colorButtonNormal"-->
+<!--            android:title="TODO">@color/colorAccent</item>-->
+<!--        <item android:name="colorControlHighlight"-->
+<!--            android:title="TODO">@color/colorPrimaryDark</item>-->
+<!--        <item android:name="android:textColor"-->
+<!--            android:title="TODO">@color/colorAccent</item>-->
+<!--        <item android:name="android:paddingLeft"-->
+<!--            android:title="TODO">20dp</item>-->
+<!--        <item android:name="android:paddingRight"-->
+<!--            android:title="TODO">20dp</item>-->
+<!--    </style>-->
+
+
+<!--    <style android:name="fonts">-->
+<!--        <item android:name="android:textColor"-->
+<!--            android:title="TODO">#fff</item>-->
+<!--        <item android:name="android:textSize"-->
+<!--            android:title="TODO">15sp</item>-->
+<!--    </style>-->
+
+<!--    <style android:name="headingfonts">-->
+<!--        <item android:name="android:textColor"-->
+<!--            android:title="TODO">#fff</item>-->
+<!--        <item android:name="android:textSize"-->
+<!--            android:title="TODO">20sp</item>-->
+<!--    </style>-->
+
+
+<!--    <style android:name="CustomTheme" android:parent="MaterialDrawerTheme">-->
+<!--        &lt;!&ndash; ...and here we setting appcompat’s color theming attrs &ndash;&gt;-->
+<!--        <item android:name="colorPrimary">@color/material_drawer_primary</item>-->
+<!--        <item android:name="colorPrimaryDark">@color/material_drawer_primary_dark</item>-->
+<!--        <item android:name="colorAccent">@color/material_drawer_accent</item>-->
+<!--        <item android:name="titleTextColor">@color/md_grey_600</item>-->
+
+<!--        &lt;!&ndash; MaterialDrawer specific values &ndash;&gt;-->
+<!--        <item android:name="android:textColorSecondary">@android:color/white</item>-->
+<!--        <item android:name="material_drawer_background">@color/material_drawer_background</item>-->
+<!--        <item android:name="material_drawer_primary_text">@color/material_drawer_primary_text</item>-->
+<!--        <item android:name="material_drawer_primary_icon">@color/material_drawer_primary_icon</item>-->
+<!--        <item android:name="material_drawer_secondary_text">@color/material_drawer_secondary_text</item>-->
+<!--        <item android:name="material_drawer_hint_text">@color/material_drawer_hint_text</item>-->
+<!--        <item android:name="material_drawer_divider">@color/material_drawer_divider</item>-->
+<!--        <item android:name="material_drawer_selected">@color/material_drawer_selected</item>-->
+<!--        <item android:name="material_drawer_selected_text">@color/material_drawer_selected_text</item>-->
+<!--        <item android:name="material_drawer_header_selection_text">-->
+<!--            @color/material_drawer_header_selection_text-->
+<!--        </item>-->
+<!--    </style>-->
+
+
+<!--    <style android:name="homegridtext">-->
+<!--        <item android:name="android:layout_height">wrap_content</item>-->
+<!--        <item android:name="android:layout_width">match_parent</item>-->
+<!--        <item android:name="android:textColor">#424242</item>-->
+<!--        <item android:name="android:textSize">15sp</item>-->
+<!--        <item android:name="android:padding">5dp</item>-->
+<!--        <item android:name="android:gravity">center</item>-->
+<!--    </style>-->
+
+<!--    <style android:name="homegridimage">-->
+<!--        <item android:name="android:gravity"></item>-->
+<!--        <item android:name="android:layout_width">match_parent</item>-->
+<!--        <item android:name="android:layout_height">70dp</item>-->
+<!--        <item android:name="android:paddingTop">5dp</item>-->
+<!--        <item android:name="android:paddingBottom">5dp</item>-->
+<!--        <item android:name="android:scaleType">fitCenter</item>-->
+<!--    </style>-->
+
+<!--    <style android:name="homegridcard">-->
+<!--        <item android:name="android:layout_height">match_parent</item>-->
+<!--        <item android:name="android:layout_width">wrap_content</item>-->
+<!--        <item android:name="android:layout_margin">5dp</item>-->
+<!--        <item android:name="android:elevation">5dp</item>-->
+<!--        <item android:name="android:layout_weight">5</item>-->
+<!--        <item android:name="android:gravity">center</item>-->
+<!--    </style>-->
+
+<!--    <style android:name="notificationstyle">-->
+<!--        <item android:name="android:background">@color/light_grey</item>-->
+<!--        <item android:name="android:cacheColorHint">@android:color/transparent</item>-->
+<!--        <item android:name="android:divider">@android:color/transparent</item>-->
+<!--        <item android:name="android:dividerHeight">0dp</item>-->
+<!--    </style>-->
+
+
+<!--    &lt;!&ndash;Defining colors for TextInputLayout's EditText&ndash;&gt;-->
+<!--    <style android:name="TextLabel" android:parent="TextAppearance.AppCompat">-->
+<!--        &lt;!&ndash; Hint color and label color in FALSE state &ndash;&gt;-->
+<!--        <item android:name="android:textColorHint">#9575cd</item>-->
+<!--        <item android:name="android:textSize">20sp</item>-->
+<!--        &lt;!&ndash; Label color in TRUE state and bar color FALSE and TRUE State &ndash;&gt;-->
+<!--        <item android:name="colorAccent">@color/primary</item>-->
+<!--        <item android:name="colorControlNormal">#9575cd</item>-->
+<!--        <item android:name="colorControlActivated">@color/colorAccent</item>-->
+<!--    </style>-->
+
+<!--    <style android:name="AppTheme.NoActionBar"/>-->
+<!--        <item android:name="windowActionBar">false</item>-->
+<!--        <item android:name="windowNoTitle">true</item>-->
+<!--&lt;!&ndash;    </style>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    &lt;!&ndash;<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">&ndash;&gt;-->
+<!--&lt;!&ndash;        &lt;!&ndash; Customize your theme here. &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="colorPrimary">@color/colorPrimary</item>&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="colorAccent">@color/colorAccent</item>&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="windowActionBar">false</item>&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="windowNoTitle">true</item>&ndash;&gt;-->
+<!--&lt;!&ndash;    </style>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />&ndash;&gt;-->
+
+<!--&ndash;&gt;-->
+</resources>

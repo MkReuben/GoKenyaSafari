@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_about"
+    tools:context=".Users.AboutusActivity">
+
+
+
+    <LinearLayout
+        android:id="@+id/linear_one"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"
+            />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="insideInset"
+        android:layout_below="@id/linear_one"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+
+                />
+            <TextView
+                android:id="@+id/tv_about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about"
+                android:textSize="15sp"
+                android:layout_below="@+id/tv_title"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="15dp"
+
+                />
+
+            <TextView
+                android:id="@+id/tv_quote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_about"
+                android:text="@string/quote"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="25dp"
+                android:textColor="@android:color/black"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:background="@color/about"
+
+                />
+
+            <TextView
+                android:id="@+id/tv_aboutone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_quote"
+                android:text="@string/abouttwo"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_abouttwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_aboutone"
+                android:text="@string/aboutthree"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="15dp"
+
+
+                />
+
+            <TextView
+                android:id="@+id/tv_aboutthree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_abouttwo"
+                android:text="@string/aboutfour"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="13dp"
+                android:layout_marginLeft="15dp"
+                />
+
+            <TextView
+
+                android:id="@+id/tv_services"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/services"
+                android:layout_below="@id/tv_aboutthree"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:gravity="center"
+
+                />
+
+            <TextView
+                android:id="@+id/tv_about_services"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="@string/aboutfive"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="15dp"
+                android:layout_below="@id/tv_services"
+
+                />
+            <TextView
+                android:id="@+id/tv_services_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/aboutsix"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_below="@id/tv_about_services"
+                />
+
+
+            <TextView
+
+                android:id="@+id/tv_customers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/customers"
+                android:layout_below="@id/tv_services_one"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+
+                />
+
+            <TextView
+                android:id="@+id/customers_about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/aboutseven"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_below="@id/tv_customers"
+                />
+            <TextView
+                android:id="@+id/customers_about_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/abouteight"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="15dp"
+                android:layout_below="@id/customers_about"
+                />
+
+            <TextView
+                android:id="@+id/experience"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/our_experience"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:layout_below="@id/customers_about_two"
+                android:gravity="center"
+                />
+            <TextView
+                android:id="@+id/experience_about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/experience_about"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="15sp"
+                android:layout_below="@+id/experience"
+                />
+
+            <TextView
+                android:id="@+id/tv_drivers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/our_drivers_guides"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_below="@id/experience_about"
+                />
+
+            <TextView
+                android:id="@+id/about_drivers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/drivers_about"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="15sp"
+                android:layout_below="@id/tv_drivers"
+
+                />
+
+            <TextView
+                android:id="@+id/about_two_drivers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/drivers_about_two"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="15sp"
+                android:layout_below="@id/about_drivers"
+
+                />
+
+            <TextView
+                android:id="@+id/why_book_us"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/why_book_us"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="7dp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="15sp"
+                android:layout_below="@id/about_two_drivers"
+                />
+            <TextView
+                android:id="@+id/knowledge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/knowledge"
+                android:textSize="15sp"
+                android:textStyle="italic|bold"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="15sp"
+                android:gravity="center"
+                android:layout_below="@id/why_book_us"
+                />
+            <TextView
+                android:id="@+id/about_knowledge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_knowledge"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="15sp"
+                android:layout_below="@id/knowledge"
+                />
+
+            <TextView
+                android:id="@+id/passion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/passion"
+                android:textSize="15sp"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="15sp"
+                android:textStyle="italic|bold"
+                android:gravity="center"
+                android:layout_below="@id/about_knowledge"
+                />
+            <TextView
+                android:id="@+id/about_passion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_passion"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="15sp"
+                android:layout_below="@id/passion"
+                />
+            <TextView
+                android:id="@+id/price_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/price_value"
+                android:textSize="15sp"
+                android:textStyle="italic|bold"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="15sp"
+                android:layout_below="@id/about_passion"
+                />
+            <TextView
+                android:id="@+id/about_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_price"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="15sp"
+                android:layout_below="@id/price_value"
+
+                />
+            <TextView
+                android:id="@+id/about_two_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_two_price"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="15sp"
+                android:layout_below="@id/about_price"
+                />
+            <TextView
+                android:id="@+id/about_three_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_three_price"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="15sp"
+                android:layout_below="@id/about_two_price"
+                />
+            <TextView
+                android:id="@+id/about_four_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_four_price"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="15sp"
+                android:layout_below="@id/about_three_price"
+
+                />
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="end|bottom"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="78dp"
+
+        android:src="@drawable/callus"
+
+
+        />
+
+
+
+
+</RelativeLayout>

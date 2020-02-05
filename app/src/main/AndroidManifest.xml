@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gokenya.safari.com">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name=".Users.offlineservices"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:largeHeap="true"
+        android:hardwareAccelerated="false"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Notifications.Notify"></activity>
+        <activity android:name=".Notifications.NotificationActivity" />
+        <activity android:name=".Users.GalleryTwo" />
+        <activity android:name=".Users.Gallery" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAUwhB7LFLQsI2nxEBLnRkh7FcRhckD0Eo" />
+
+        <activity
+            android:name=".Users.MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".LakeNakuruTopTour.PriceNakuru" />
+        <activity android:name=".LakeNakuruTopTour.PackageDetailsNakuru" />
+        <activity android:name=".LakeNakuruTopTour.HighlightsNakuru" />
+        <activity android:name=".LakeNakuruTopTour.DetailedItineraryNakuru" />
+        <activity android:name=".MasaiMaraTopTour.Price" />
+        <activity android:name=".MasaiMaraTopTour.PackageDetails" />
+        <activity android:name=".MasaiMaraTopTour.Highlights" />
+        <activity android:name=".MasaiMaraTopTour.DetailedItinerary" />
+        <activity android:name=".TopTourSafaris.LakeNakuru" />
+        <activity android:name=".TopTourSafaris.MasaiMara" />
+        <activity android:name=".Safaris.BusinessTravelPackages" />
+        <activity android:name=".Safaris.TanzaniaLuxurySafari" />
+        <activity android:name=".Safaris.KenyaLuxurySafari" />
+        <activity android:name=".Safaris.DiscoverKenyaSafari" />
+        <activity android:name=".Safaris.DepartingMombasaEndNairobi" />
+        <activity android:name=".Safaris.NairobiDaySafaris" />
+        <activity android:name=".Safaris.NairobiEndMombasa" />
+        <activity android:name=".Safaris.MombasaRoadSafaris" />
+        <activity android:name=".Safaris.MombasaDaySafaris" />
+        <activity android:name=".Safaris.KenyaSafariBeach" />
+        <activity android:name=".Safaris.TanzaniaSafaris" />
+        <activity android:name=".Safaris.NairobiSafariActivity" />
+        <activity
+            android:name=".Users.LocationActivity"
+            android:label="@string/title_activity_location" />
+        <activity android:name=".Users.NetworkErrorActivity" />
+        <activity android:name=".Users.PaymentActivity" />
+        <activity android:name=".Admins.AddNewSafariActivity" />
+        <activity android:name=".Admins.AdminHomeActivity" />
+        <activity android:name=".Users.SafariDetailsActivity" />
+        <activity android:name=".Admins.AdminMaintainActivity" />
+        <activity android:name=".Users.AccountActivity" />
+        <activity android:name=".Users.AboutusActivity" />
+        <activity android:name=".Users.SearchActivity" />
+        <activity android:name=".Admins.LoginActivity" />
+        <activity
+            android:name=".Users.HomeActivity"
+            android:label="@string/title_activity_home" />
+        <activity android:name=".Users.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

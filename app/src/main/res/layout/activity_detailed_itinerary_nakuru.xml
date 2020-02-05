@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".LakeNakuruTopTour.DetailedItineraryNakuru">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbarStyle="outsideInset">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/tv_one_title_nakuru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Day 1:Nairobi-Lake Nakuru National Reserve"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/tv_two_nakuru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/day_one_nairobi_lake_nakuru_"
+                android:layout_below="@id/tv_one_title_nakuru"
+                android:textSize="17sp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+
+                />
+            <TextView
+                android:id="@+id/tv_three_nakuru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_day_one_lake_nakuru"
+                android:layout_below="@id/tv_two_nakuru"
+                android:textSize="17sp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/tv_two_title_nakuru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Day 2:Lake Nakuru-Masai Mara National Reserve"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:layout_marginLeft="3dp"
+                android:layout_below="@id/tv_three_nakuru"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/tv_four_nakuru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/day_two_lake_nakuru_masai_mara"
+                android:layout_below="@id/tv_two_title_nakuru"
+                android:textSize="17sp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/tv_five_nakuru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_day_two_masai_mara"
+                android:layout_below="@id/tv_four_nakuru"
+                android:textSize="17sp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+
+                />
+            <TextView
+                android:id="@+id/tv_three_title_nakuru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Day 3:Masai Mara National Reserve"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:layout_marginLeft="3dp"
+                android:layout_below="@id/tv_five_nakuru"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+                android:id="@+id/tv_six_nakuru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/day_three_masai_mara_reserve"
+                android:layout_below="@id/tv_three_title_nakuru"
+                android:textSize="17sp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+
+                />
+            <TextView
+                android:id="@+id/tv_four_title_nakuru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Day 4:Masai Mara-Nairobi"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:layout_marginLeft="3dp"
+                android:layout_below="@id/tv_six_nakuru"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/tv_seven_nakuru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/day_four_masai_mara_nairobi"
+                android:layout_below="@id/tv_four_title_nakuru"
+                android:textSize="17sp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@android:color/darker_gray"
+    android:background="@android:color/background_dark"
+    tools:context=".Users.NetworkErrorActivity">
+
+    <ImageView
+        android:id="@+id/network_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        />
+
+    <TextView
+        android:id="@+id/tv_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/network_logo"
+        android:text="Hmm.We're having trouble finding that page."
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="20sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tv_two"
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_one"
+        android:text=" -Try again later."
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tv_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_two"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:text="-Check your network connection."
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="68dp"
+        android:layout_marginRight="10dp" />
+
+
+    <Button
+        android:id="@+id/try_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_three"
+        android:text="Try Again"
+        android:layout_marginTop="37dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/btn"
+        android:layout_marginLeft="86sp"
+        android:layout_marginRight="86sp"
+        />
+
+
+</RelativeLayout>

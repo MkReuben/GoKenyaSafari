@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MasaiMaraTopTour.Price">
+
+<TextView
+    android:id="@+id/tv_one_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/price_about"
+    android:textStyle="bold"
+    android:textSize="18sp"
+    android:textColor="@android:color/white"
+    android:layout_marginLeft="15sp"
+    android:layout_marginTop="16dp"
+    />
+
+    <TextView
+        android:id="@+id/option_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/option_one"
+        android:layout_below="@+id/tv_one_title"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_marginLeft="10sp"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/price_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/price_one"
+        android:layout_below="@+id/option_one"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/option_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/option_two"
+        android:layout_below="@+id/price_one"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/price_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/price_two"
+        android:layout_below="@+id/option_two"
+        android:layout_marginLeft="28sp"
+        android:textSize="17sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/option_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/option_three"
+        android:layout_below="@+id/price_two"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/price_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/price_three"
+        android:layout_below="@+id/option_three"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/option_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/option_four"
+        android:layout_below="@+id/price_three"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/price_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/price_four"
+        android:layout_below="@+id/option_four"
+         android:textAlignment="center"
+        android:textSize="17sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="10dp"
+        />
+
+</RelativeLayout>

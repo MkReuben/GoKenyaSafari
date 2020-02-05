@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".LakeNakuruTopTour.PackageDetailsNakuru">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbarStyle="insideInset">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_one_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/price_include"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"/>
+            <TextView
+                android:id="@+id/tv_two_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/one"
+                android:layout_below="@id/tv_one_price"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/tv_three_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/two"
+                android:layout_below="@id/tv_two_price"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/tv_four_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/three"
+                android:layout_below="@id/tv_three_price"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"/>
+            <TextView
+                android:id="@+id/tv_five_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/four"
+                android:layout_below="@id/tv_four_price"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"/>
+            <TextView
+                android:id="@+id/tv_six_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/five"
+                android:layout_below="@id/tv_five_price"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"/>
+
+
+            <TextView
+                android:id="@+id/tv_seven_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/price_exclude"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/tv_six_price"
+                android:textColor="@android:color/white"/>
+
+            <TextView
+                android:id="@+id/tv_eight_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/one_exlusion"
+                android:layout_below="@id/tv_seven_price"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/tv_nine_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/two_exlusion"
+                android:layout_below="@id/tv_eight_price"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"/>
+            <TextView
+                android:id="@+id/tv_ten_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/three_exclusion"
+                android:layout_below="@id/tv_nine_price"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

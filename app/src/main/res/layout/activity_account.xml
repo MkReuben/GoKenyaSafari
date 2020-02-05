@@ -1,0 +1,1273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context=".Users.AccountActivity">
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/linear_one"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+<!--        android:gravity="bottom"-->
+<!--        android:paddingLeft="@dimen/activity_horizontal_margin"-->
+<!--        android:paddingTop="@dimen/activity_vertical_margin"-->
+<!--        android:paddingRight="@dimen/activity_horizontal_margin"-->
+<!--        android:paddingBottom="@dimen/activity_vertical_margin">-->
+
+
+<!--        <ImageView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/logo"-->
+<!--            />-->
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/kws"
+            />
+        <ImageView
+            android:layout_width="129dp"
+            android:layout_height="80dp"
+            android:src="@drawable/kalto"
+            />
+        <ImageView
+            android:layout_width="129dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ministrytourism"
+            />
+
+
+    </LinearLayout>
+
+    <ScrollView
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="insideInset"
+        android:layout_below="@+id/linear_one">
+
+
+
+        <RelativeLayout
+            android:id="@+id/relative_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+<LinearLayout
+    android:id="@+id/card_view_two"
+    android:background="@drawable/rippleeffect"
+    android:padding="8dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+
+    >
+
+    <ImageView
+        android:src="@drawable/maasaimara"
+        android:id="@+id/thumbnail"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="131dp"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/safari_top_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maasai Mara Safari"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/categorie_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top |Tour | Adventure" />
+
+        <TextView
+            android:id="@+id/rating_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimary"
+            android:baselineAligned="false"
+            android:paddingRight="5dp"
+            android:text="8.9"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+            <LinearLayout
+                android:id="@+id/card_view_four"
+                android:background="@drawable/rippleeffect"
+                android:padding="8dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+
+                >
+
+                <ImageView
+                    android:src="@drawable/maasaimara"
+                    android:id="@+id/thumbnail_two"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="131dp"
+                    android:layout_margin="8dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/saf_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Maasai Mara Safari"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/categorie"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="Top |Tour | Adventure" />
+
+
+                    <TextView
+                        android:id="@+id/rating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:baselineAligned="false"
+                        android:paddingRight="5dp"
+                        android:text="3 Days 2 nights"
+
+                        android:textSize="15sp"
+                 />
+
+                    <com.rey.material.widget.TextView
+                        android:id="@+id/tv_maasai_mara_top_tour"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:textSize="17sp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="View Details" />
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/card_view_three"
+                android:background="@drawable/rippleeffect"
+                android:padding="8dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@id/card_view_two"
+
+                >
+
+                <ImageView
+                    android:src="@drawable/nax"
+                    android:id="@+id/thumbnail_three"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="131dp"
+                    android:layout_margin="8dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/safariname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nakuru Safari"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/categorie_two"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="Top |Tour | Adventure" />
+
+                    <TextView
+                        android:id="@+id/rating_two"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:baselineAligned="false"
+                        android:paddingRight="5dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="4 Days 3 nights"
+                        android:textSize="15sp"
+               />
+
+                    <com.rey.material.widget.TextView
+                        android:id="@+id/tv_nakuru_top_tour"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:textSize="17sp"
+
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="View Details" />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Safari Tour Packages"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:textAllCaps="true"
+                android:layout_below="@id/card_view_three"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textSize="@dimen/fab_margin"
+                />
+
+
+            <RelativeLayout
+                android:id="@+id/rl_kenya_safari_and_beach"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_selector"
+                android:orientation="horizontal"
+                android:layout_below="@id/rl_tanzania_safari"
+
+                android:padding="5dip" >
+
+
+
+
+                <!--  ListRow Left sied Thumbnail image -->
+                <LinearLayout android:id="@+id/thumbnail_four"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dip"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/image_bg"
+                    android:layout_marginRight="5dip">
+
+                    <ImageView
+                        android:id="@+id/list_image_kenyas_safari_and_beach"
+                        android:layout_width="50dip"
+                        android:layout_height="50dip"
+                        android:src="@drawable/msa"/>
+
+                </LinearLayout>
+
+                <!-- Title -->
+                <TextView
+                    android:id="@+id/title_kenya_safari_and_beach"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/thumbnail_four"
+                    android:layout_toRightOf="@+id/thumbnail_four"
+                    android:text="Kenya Safari and Beach"
+                    android:textColor="#040404"
+                    android:typeface="sans"
+                    android:textSize="15dip"
+                    android:textStyle="bold"/>
+
+                <!-- Artist Name -->
+                <TextView
+                    android:id="@+id/artist"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title_kenya_safari_and_beach"
+                    android:textColor="#343434"
+                    android:textSize="12.5dip"
+                    android:layout_marginTop="1dip"
+                    android:layout_toRightOf="@+id/thumbnail_four"
+                    android:text="Get the best holiday along the beaches ..." />
+
+
+                <!-- Rightend Arrow -->
+                <ImageView
+
+                    android:id="@+id/img_kenya_safari_and_beach"
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/cardview_shadow_end_color"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/righthand" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_tanzania_safari"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_selector"
+                android:orientation="horizontal"
+                android:layout_below="@id/tv_heading"
+                android:layout_marginTop="10dp"
+                android:padding="5dip" >
+
+
+
+
+                <!--  ListRow Left sied Thumbnail image -->
+                <LinearLayout android:id="@+id/thumbnail_tanzania_safari"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/image_bg"
+                    android:layout_marginRight="5dip">
+
+                    <ImageView
+                        android:id="@+id/list_image"
+                        android:layout_width="50dip"
+                        android:layout_height="50dip"
+                        android:src="@drawable/maasaimara"/>
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/thumbnail_tanzania_safari"
+                    android:layout_toRightOf="@+id/thumbnail_tanzania_safari"
+                    android:text="Tanzania Safaris"
+                    android:textColor="#040404"
+                    android:typeface="sans"
+                    android:textSize="15dip"
+                    android:textStyle="bold"/>
+
+                <!-- Quote -->
+                <TextView
+                    android:id="@+id/quote_tanzania"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title"
+                    android:textColor="#343434"
+                    android:textSize="12.5dip"
+                    android:layout_marginTop="1dip"
+                    android:layout_toRightOf="@+id/thumbnail_tanzania_safari"
+                    android:text="Experience the Mecca of the Great Wildebeest Migration in Africa..." />
+
+                <!-- Rightend packages -->
+
+
+                <!-- Rightend Arrow -->
+                <ImageView
+
+                    android:id="@+id/imgn_tanzania_safaris"
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/cardview_shadow_end_color"
+                    android:scaleType="centerCrop"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/righthand" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_nairobi_safari"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_selector"
+                android:orientation="horizontal"
+                android:layout_below="@id/rl_kenya_safari_and_beach"
+
+                android:padding="5dip" >
+
+
+
+
+                <!--  ListRow Left sied Thumbnail image -->
+                <LinearLayout android:id="@+id/thumbnail_five"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dip"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/image_bg"
+                    android:layout_marginRight="5dip">
+
+                    <ImageView
+                        android:id="@+id/list_img_nairobi_safari"
+                        android:layout_width="50dip"
+                        android:layout_height="50dip"
+                        android:src="@drawable/tsavo"/>
+
+                </LinearLayout>
+
+                <!-- Title -->
+                <TextView
+                    android:id="@+id/title_nairobi_safaris"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/thumbnail_five"
+                    android:layout_toRightOf="@+id/thumbnail_five"
+                    android:text="Nairobi Safaris"
+                    android:textColor="#040404"
+                    android:typeface="sans"
+                    android:textSize="15dip"
+                    android:textStyle="bold"/>
+
+                <!--  Name -->
+                <TextView
+                    android:id="@+id/nairobi_safaris"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title_nairobi_safaris"
+                    android:textColor="#343434"
+                    android:textSize="12.5dp"
+                    android:layout_marginTop="1dip"
+                    android:layout_toRightOf="@+id/thumbnail_five"
+                    android:text="It's wildest,untouched Africa,and it's magical..." />
+
+
+                <!-- Rightend Arrow -->
+                <ImageView
+
+                    android:id="@+id/img_nairobi_safari"
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/cardview_shadow_end_color"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/righthand" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_mombasa_day_tours"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_selector"
+                android:orientation="horizontal"
+                android:layout_below="@id/rl_nairobi_safari"
+
+                android:padding="5dip" >
+
+
+
+
+                <!--  ListRow Left sied Thumbnail image -->
+                <LinearLayout android:id="@+id/thumbnail_mombasa_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dip"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/image_bg"
+                    android:layout_marginRight="5dip">
+
+                    <ImageView
+                        android:id="@+id/list_image_mombasa_day_tours"
+                        android:layout_width="50dip"
+                        android:layout_height="50dip"
+                        android:src="@drawable/msatwo"/>
+
+                </LinearLayout>
+
+                <!-- Title -->
+                <TextView
+                    android:id="@+id/title_mombasa_day_tours"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/thumbnail_mombasa_day"
+                    android:layout_toRightOf="@+id/thumbnail_mombasa_day"
+                    android:text="Mombasa Day Tours"
+                    android:textColor="#040404"
+                    android:typeface="sans"
+                    android:textSize="15dip"
+                    android:textStyle="bold"/>
+
+                <!-- Name-->
+                <TextView
+                    android:id="@+id/mombasa_day"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title_mombasa_day_tours"
+                    android:textColor="#343434"
+                    android:textSize="12.5dip"
+                    android:layout_marginTop="1dip"
+                    android:layout_toRightOf="@+id/thumbnail_mombasa_day"
+                    android:text="Experience intriguing sense of coast life..." />
+
+
+                <!-- Rightend Arrow -->
+                <ImageView
+
+                    android:id="@+id/img_mombasa_day_tours"
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/cardview_shadow_end_color"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/righthand" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_mombasa_road_safaris"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_selector"
+                android:orientation="horizontal"
+                android:layout_below="@id/rl_mombasa_day_tours"
+
+                android:padding="5dip" >
+
+
+
+
+                <!--  ListRow Left sied Thumbnail image -->
+                <LinearLayout android:id="@+id/thumbnail_mombasa_road_safaris"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dip"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/image_bg"
+                    android:layout_marginRight="5dip">
+
+                    <ImageView
+                        android:id="@+id/list_image_mombasa_road_safaris"
+                        android:layout_width="50dip"
+                        android:layout_height="50dip"
+                        android:src="@drawable/msath"/>
+
+                </LinearLayout>
+
+                <!-- Title -->
+                <TextView
+                    android:id="@+id/title_mombasa_road_safari"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/thumbnail_mombasa_road_safaris"
+                    android:layout_toRightOf="@+id/thumbnail_mombasa_road_safaris"
+                    android:text="Mombasa Road Safaris"
+                    android:textColor="#040404"
+                    android:typeface="sans"
+                    android:textSize="15dip"
+                    android:textStyle="bold"/>
+
+                <!-- Name -->
+                <TextView
+                    android:id="@+id/mombasa_road_safaris"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title_mombasa_road_safari"
+                    android:textColor="#343434"
+                    android:textSize="12.5dp"
+                    android:layout_marginTop="1dip"
+                    android:layout_toRightOf="@+id/thumbnail_mombasa_road_safaris"
+                    android:text="Experience a tropical ambience, scenic attractions and mind-blowing activities...." />
+
+
+                <!-- Rightend Arrow -->
+                <ImageView
+
+                    android:id="@+id/img_mombasa_road_safaris"
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/cardview_shadow_end_color"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/righthand" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_departing_nairobi_end_mombasa"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_selector"
+                android:orientation="horizontal"
+                android:layout_below="@id/rl_mombasa_road_safaris"
+
+                android:padding="5dip" >
+
+
+
+
+                <!--  ListRow Left sied Thumbnail image -->
+                <LinearLayout android:id="@+id/thumbnail_nrb_end_msa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dip"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/image_bg"
+                    android:layout_marginRight="5dip">
+
+                    <ImageView
+                        android:id="@+id/list_image_nrb_end_msa"
+                        android:layout_width="50dip"
+                        android:layout_height="50dip"
+                        android:src="@drawable/nairobiendmombasa"/>
+
+                </LinearLayout>
+
+                <!-- Title -->
+                <TextView
+                    android:id="@+id/title_nairobi_end_mombasa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/thumbnail_nrb_end_msa"
+                    android:layout_toRightOf="@+id/thumbnail_nrb_end_msa"
+                    android:text="Departing Nairobi End Mombasa"
+                    android:textColor="#040404"
+                    android:typeface="sans"
+                    android:textSize="15dip"
+                    android:textStyle="bold"/>
+
+                <!-- Name -->
+                <TextView
+                    android:id="@+id/tv_nairobi_end_mombasa_safaris"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title_nairobi_end_mombasa"
+                    android:textColor="#343434"
+                    android:textSize="12.5dip"
+                    android:layout_marginTop="1dip"
+                    android:layout_toRightOf="@+id/thumbnail_nrb_end_msa"
+                    android:text="Enjoy superb views of places that are filled with peace and tranquillity ..." />
+
+
+                <!-- Rightend Arrow -->
+                <ImageView
+
+                    android:id="@+id/img_nairobi_end_mombasa"
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/cardview_shadow_end_color"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/righthand" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_nairobi_day_safari"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_selector"
+                android:orientation="horizontal"
+                android:layout_below="@id/rl_departing_nairobi_end_mombasa"
+
+                android:padding="5dip" >
+
+
+
+
+                <!--  ListRow Left sied Thumbnail image -->
+                <LinearLayout android:id="@+id/thumbnail_nairobi_day_safari"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dip"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/image_bg"
+                    android:layout_marginRight="5dip">
+
+                    <ImageView
+                        android:id="@+id/list_image_nairobi_day_safari"
+                        android:layout_width="50dip"
+                        android:layout_height="50dip"
+                        android:src="@drawable/nairobiday"/>
+
+                </LinearLayout>
+
+                <!-- Title -->
+                <TextView
+                    android:id="@+id/title_nairobi_day_safari"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/thumbnail_nairobi_day_safari"
+                    android:layout_toRightOf="@+id/thumbnail_nairobi_day_safari"
+                    android:text="Nairobi Day Safaris"
+                    android:textColor="#040404"
+                    android:typeface="sans"
+                    android:textSize="15dip"
+                    android:textStyle="bold"/>
+
+                <!--  Name -->
+                <TextView
+                    android:id="@+id/nairobi_day_safaris"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title_nairobi_day_safari"
+                    android:textColor="#343434"
+                    android:textSize="12.5dip"
+                    android:layout_marginTop="1dip"
+                    android:layout_toRightOf="@+id/thumbnail_nairobi_day_safari"
+                    android:text="Experience Kenya's Pioneer Private Conservancies..." />
+
+
+                <!-- Rightend Arrow -->
+                <ImageView
+
+                    android:id="@+id/img_nairobi_day_safari"
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/cardview_shadow_end_color"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/righthand" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_departing_mombasa_end_nairobi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_selector"
+                android:orientation="horizontal"
+                android:layout_below="@id/rl_nairobi_day_safari"
+
+                android:padding="5dip" >
+
+
+
+
+                <!--  ListRow Left sied Thumbnail image -->
+                <LinearLayout android:id="@+id/thumbnail_mombasa_end_nairobi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dip"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/image_bg"
+                    android:layout_marginRight="5dip">
+
+                    <ImageView
+                        android:id="@+id/list_image_mombasa_end_nairobi"
+                        android:layout_width="50dip"
+                        android:layout_height="50dip"
+                        android:src="@drawable/mombasaendnairobi"/>
+
+                </LinearLayout>
+
+                <!-- Title -->
+                <TextView
+                    android:id="@+id/title_mombasa_end_nairobi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/thumbnail_mombasa_end_nairobi"
+                    android:layout_toRightOf="@+id/thumbnail_mombasa_end_nairobi"
+                    android:text="Departing Mombasa end Nairobi Safari"
+                    android:textColor="#040404"
+                    android:typeface="sans"
+                    android:textSize="15dip"
+                    android:textStyle="bold"/>
+
+                <!-- Artist Name -->
+                <TextView
+                    android:id="@+id/departing_mombasa_end_nairobi"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title_mombasa_end_nairobi"
+                    android:textColor="#343434"
+                    android:textSize="12.5dip"
+                    android:layout_marginTop="1dip"
+                    android:layout_toRightOf="@+id/thumbnail_mombasa_end_nairobi"
+                    android:text="An Unrivaled Land Of Contrast And Diversity ..." />
+
+
+                <!-- Rightend Arrow -->
+                <ImageView
+
+                    android:id="@+id/img_mombasa_end_nairobi"
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/cardview_shadow_end_color"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/righthand" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_discover_kenya_safaris"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_selector"
+                android:orientation="horizontal"
+                android:layout_below="@id/rl_departing_mombasa_end_nairobi"
+
+                android:padding="5dip" >
+
+
+
+
+                <!--  ListRow Left sied Thumbnail image -->
+                <LinearLayout android:id="@+id/thumbnail_discover_kenya_safaris"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dip"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/image_bg"
+                    android:layout_marginRight="5dip">
+
+                    <ImageView
+                        android:id="@+id/list_image_discover_kenya_safaris"
+                        android:layout_width="50dip"
+                        android:layout_height="50dip"
+                        android:src="@drawable/nax"/>
+
+                </LinearLayout>
+
+                <!-- Title -->
+                <TextView
+                    android:id="@+id/title_discover_kenya_safaris"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/thumbnail_discover_kenya_safaris"
+                    android:layout_toRightOf="@+id/thumbnail_discover_kenya_safaris"
+                    android:text="Discover Kenya Safaris"
+                    android:textColor="#040404"
+                    android:typeface="sans"
+                    android:textSize="15dip"
+                    android:textStyle="bold"/>
+
+                <!-- Name -->
+                <TextView
+                    android:id="@+id/tv_discover_kenya_safaris"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title_discover_kenya_safaris"
+                    android:textColor="#343434"
+                    android:textSize="12.5dip"
+                    android:layout_marginTop="1dip"
+                    android:layout_toRightOf="@+id/thumbnail_discover_kenya_safaris"
+                    android:text="Experience World-Class Birding at Great RiftValley Lakes ..." />
+
+
+                <!-- Rightend Arrow -->
+                <ImageView
+
+                    android:id="@+id/img_discover_kenya_safari"
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/cardview_shadow_end_color"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/righthand" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_kenya_luxury_safari"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_selector"
+                android:orientation="horizontal"
+                android:layout_below="@id/rl_discover_kenya_safaris"
+
+                android:padding="5dip" >
+
+
+
+
+                <!--  ListRow Left sied Thumbnail image -->
+                <LinearLayout android:id="@+id/thumbnail_kenya_luxury_safari"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dip"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/image_bg"
+                    android:layout_marginRight="5dip">
+
+                    <ImageView
+                        android:id="@+id/list_image_kenya_luxury_safari"
+                        android:layout_width="50dip"
+                        android:layout_height="50dip"
+                        android:src="@drawable/tsavo"/>
+
+                </LinearLayout>
+
+                <!-- Title -->
+                <TextView
+                    android:id="@+id/title_kenya_luxury_safari"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/thumbnail_kenya_luxury_safari"
+                    android:layout_toRightOf="@+id/thumbnail_kenya_luxury_safari"
+                    android:text="Kenya Luxury Safaris"
+                    android:textColor="#040404"
+                    android:typeface="sans"
+                    android:textSize="15dip"
+                    android:textStyle="bold"/>
+
+                <!-- Name -->
+                <TextView
+                    android:id="@+id/quote_kenya_luxury_safari"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title_kenya_luxury_safari"
+                    android:textColor="#343434"
+                    android:textSize="12.5dip"
+                    android:layout_marginTop="1dip"
+                    android:layout_toRightOf="@+id/thumbnail_kenya_luxury_safari"
+                    android:text="Barefoot Escape To Kenya’s Turquoise Waters, White Sand Beaches And Isolated Islands ..." />
+
+
+                <!-- Rightend Arrow -->
+                <ImageView
+
+                    android:id="@+id/img_kenya_luxury_safari"
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/cardview_shadow_end_color"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/righthand" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_tanzania_luxury_safari"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_selector"
+                android:orientation="horizontal"
+                android:layout_below="@id/rl_kenya_luxury_safari"
+
+                android:padding="5dip" >
+
+
+
+
+                <!--  ListRow Left sied Thumbnail image -->
+                <LinearLayout android:id="@+id/thumbnail_tanzania_luxury_safari"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dip"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/image_bg"
+                    android:layout_marginRight="5dip">
+
+                    <ImageView
+                        android:id="@+id/list_image_tanzania_luxury_safari"
+                        android:layout_width="50dip"
+                        android:layout_height="50dip"
+                        android:src="@drawable/serengeti"/>
+
+                </LinearLayout>
+
+                <!-- Title -->
+                <TextView
+                    android:id="@+id/title_tanzania_luxury_safari"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/thumbnail_tanzania_luxury_safari"
+                    android:layout_toRightOf="@+id/thumbnail_tanzania_luxury_safari"
+                    android:text="Tanzania Luxury Safaris"
+                    android:textColor="#040404"
+                    android:typeface="sans"
+                    android:textSize="15dip"
+                    android:textStyle="bold"/>
+
+                <!-- Name -->
+                <TextView
+                    android:id="@+id/quote_tanzania_luxury_safaris"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title_tanzania_luxury_safari"
+                    android:textColor="#343434"
+                    android:textSize="12.5dip"
+                    android:layout_marginTop="1dip"
+                    android:layout_toRightOf="@+id/thumbnail_tanzania_luxury_safari"
+                    android:text="Enlightening &amp; Experiential Experiences With Kenya’s Fascinating Cultures..." />
+
+
+                <!-- Rightend Arrow -->
+                <ImageView
+
+                    android:id="@+id/imgn_tanzania_luxury_safaris"
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/cardview_shadow_end_color"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/righthand" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_business_travel_packages"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_selector"
+                android:orientation="horizontal"
+                android:layout_below="@id/rl_tanzania_luxury_safari"
+
+                android:padding="5dip" >
+
+
+
+
+                <!--  ListRow Left sied Thumbnail image -->
+                <LinearLayout android:id="@+id/thumbnail_business_travel_packages"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dip"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/image_bg"
+                    android:layout_marginRight="5dip">
+
+                    <ImageView
+                        android:id="@+id/list_image_business_travel_backages"
+                        android:layout_width="50dip"
+                        android:layout_height="50dip"
+                        android:src="@drawable/businesstravel"/>
+
+                </LinearLayout>
+
+                <!-- Title -->
+                <TextView
+                    android:id="@+id/title_business_travel_packages"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/thumbnail_business_travel_packages"
+                    android:layout_toRightOf="@+id/thumbnail_business_travel_packages"
+                    android:text="Business Travel Packages"
+                    android:textColor="#040404"
+                    android:typeface="sans"
+                    android:textSize="15dip"
+                    android:textStyle="bold"/>
+
+                <!--  Name -->
+                <TextView
+                    android:id="@+id/business_travel_packages"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title_business_travel_packages"
+                    android:textColor="#343434"
+                    android:textSize="12.5dip"
+                    android:layout_marginTop="1dip"
+                    android:layout_toRightOf="@+id/thumbnail_business_travel_packages"
+                    android:text="Experience of a safari is in essence a thrill for the senses..." />
+
+
+                <!-- Rightend Arrow -->
+                <ImageView
+
+                    android:id="@+id/img_business_travel_packages"
+                    android:layout_width="30dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/cardview_shadow_end_color"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/righthand" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_gallery"
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/list_selector"
+                android:orientation="horizontal"
+                android:layout_below="@id/rl_business_travel_packages"
+                android:layout_marginTop="15dp"
+                >
+
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/gallery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Our Gallery"
+                    android:textColor="@android:color/white"
+                    android:typeface="sans"
+                    android:background="@drawable/bg"
+                    android:textSize="45sp"
+                    android:fontFamily="@font/blacklist"
+                    android:gravity="center"
+                   />
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_contactUs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_selector"
+                android:orientation="horizontal"
+                android:layout_below="@id/rl_gallery"
+
+                android:layout_marginTop="15dp"
+                android:padding="5dip" >
+
+
+                <TextView
+                    android:id="@+id/title_inquire"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Inquire Here"
+                    android:textColor="#040404"
+                    android:typeface="sans"
+                    android:fontFamily="@font/blacklist"
+                    android:layout_marginLeft="130dp"
+                    android:textSize="20dip"
+
+              />
+
+                <!--  ListRow Left sied Thumbnail image -->
+                <LinearLayout android:id="@+id/thumbnail_contactus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title_inquire"
+                    android:orientation="horizontal"
+                    android:layout_alignParentLeft="true"
+                  >
+
+                    <ImageView
+                        android:id="@+id/call"
+                        android:layout_width="75dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/callus"
+                        />
+
+                    <ImageView
+                        android:id="@+id/sms"
+                        android:layout_width="75dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/sms"
+                        />
+
+                    <ImageView
+                        android:id="@+id/whatsapp"
+                        android:layout_width="75dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/whatsapp"
+                        />
+                    <ImageView
+                        android:id="@+id/gmail"
+                        android:layout_width="75dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/gmail"
+                        />
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_location_payment"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_selector"
+                android:orientation="horizontal"
+                android:layout_below="@id/rl_contactUs"
+
+                android:layout_marginTop="15dp"
+                android:padding="5dip" >
+
+
+                <!--  ListRow Left sied Thumbnail image -->
+                <LinearLayout android:id="@+id/thumbnail_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_alignParentLeft="true"
+                    >
+
+                    <ImageView
+
+                        android:id="@+id/location"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="4dp"
+                        android:src="@drawable/location"
+                        />
+
+                    <ImageView
+
+
+                        android:id="@+id/payment"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="4dp"
+                        android:src="@drawable/pesapalpaybtn"
+                        />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="end|bottom"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="78dp"
+        android:src="@drawable/callus"
+
+
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MasaiMaraTopTour.DetailedItinerary">
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbarStyle="insideInset"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/tv_mara"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/masai_mara_day_one"
+            android:textColor="@android:color/white"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:id="@+id/tv_day_one_mara"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/day_one_masai_mara"
+            android:layout_below="@id/tv_mara"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_day_two_mara"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/masai_mara_day_two"
+            android:layout_below="@id/tv_day_one_mara"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tv_mara_day_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/day_two_masai_mara"
+            android:layout_below="@id/tv_day_two_mara"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="10dp"
+
+            />
+        <TextView
+            android:id="@+id/mara_day_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/masai_mara_day_three"
+            android:layout_below="@id/tv_mara_day_two"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/day_three_masai_mara"
+            android:layout_below="@+id/mara_day_two"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            />
+    </RelativeLayout>
+
+
+</ScrollView>
+</RelativeLayout>

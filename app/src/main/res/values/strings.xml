@@ -1,0 +1,262 @@
+<resources>
+    <string name="app_name">GoKenya</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+
+    //About go kenya safari
+    <string name="about">Go Kenya Tours and Safari stands out to be one of the most reputable indigenous owned Tours and Safari Companies in Kenya with tour packages to Kenya,Uganda,Tanzania and Zanzibar.It is a fully registered Safari and Tour Operator,Incorporated in Nairobi-Kenya with its Head Office in Nairobi.</string>
+    <string name="title">About Go Kenya Safari</string>
+    <string name="quote">  \" We can beat any safari quote just give us your safari holiday budget and we will work out the best options that fits your budget\" </string>
+    <string name="abouttwo">Today we have emerged to be one of the most sought after Safari and Tour Operator\'s in East Africa due to our expertise and knowledge of the wildlife history and habitat as well as provision of Safari holiday planning and ground handling services by online and overseas Travel Agents</string>
+    <string name="aboutthree">Whether you want to plan the perfect honeymoon,the daring East African Adventure Holiday,the ultimate Kenya,Uganda and Tanzania safari or a unique family vacation,Go Kenya Tours and Safari offers it all.Go Kenya Tours and Safari is here to offer you picturisque Africa safaris,ecotourism and adventure travel.</string>
+    <string name="aboutfour">All of our trips are customized to enable you touch of Africa cultural and modern lifestyle,as well as wildlife.However we tailor-made to our guests\' specifications-so no two trips will be ever alike.Whatever your special interest,we have something that will meet your needs.We do all the research,plan your itenarary,provide necessary information and cover all the details-all you need is to pack your bag and prepare for the African Vacation of a lifetime.</string>
+    <string name="services">OUR SERVICES</string>
+    <string name="aboutfive">Our clients enjoy the services of our dependable connections through Kenya,Tanzania and Uganda.This means we will take care of all your holiday planning and ground handling logistics from meet and great formalities, assistance at the Airport and hotel upon arrived,transfers to the respective hotels,accommodation arrangements and bookings,Tours and Safari organizations,conferences and Group incentives to any destination of your choice in East Africa.</string>
+    <string name="aboutsix">In summary,we offer appropriate professional advice and guidance on a particular inquiry and assist in the coordination of the final product.</string>
+    <string name="customers">OUR CUSTOMERS</string>
+    <string name="aboutseven">Our culture of putting customers first ,teamwork and on time service delivery has played a key role in our success.We evaluate our clients\' needs and then create tailor-made solutions whilst allowing room for future growth and expansion, in line with the rapidly changing face of the global Travel industry.</string>
+    <string name="abouteight">Our client portfolio include Missionary groups,Research student organizations,corporate incentive organizers,Conference organizers,Non Governmental organizations and online individual inquirers.</string>
+    <string name="our_experience">OUR EXPERIENCE</string>
+    <string name="experience_about">Our long term experience of working closely wth a wide range of clients and facing various kind of scenarios has given us a unique balance of skills between knowing what is out there in terms of our clients\' needs and understanding our market to make sure that our products are not only plausible but also possible and affordable.</string>
+    <string name="our_drivers_guides">OUR DRIVERS/GUIDES</string>
+    <string name="drivers_about">All our Drivers/Guides are native,well trained and excellent driving experience,game viewing and wide knowledge about their Culture,Wildlife,Birdlife and Plants.</string>
+    <string name="drivers_about_two">As we are well aware that the success of our Company is dependent on the expertise of Drivers/Guides,we have invested heavily in Professional training.They regularly undergo vigorously training courses in our recognized hospitality institutions inorder to maintain the set standards in Tourism industry.</string>
+
+    <string name="why_book_us">Why Book with Go Kenya Tours and Safaris</string>
+
+    <string name="knowledge">1.Knowledge of our Product</string>
+    <string name="about_knowledge">Go Kenya Tours and Safari are specialists;We sell the East African tourist attractions ,and we know our products extremely well.</string>
+    <string name="passion">2.Passion</string>
+    <string name="about_passion">We love Africa.For Go Kenya Tours and Safari,it is in our blood and Africa will be always our true home.We feel intimately connected with East Africa environment and its wildlife.Africa has a way of getting inside you and touching your soul..it\'s a remarkable feeling for those who experience it and we are both constantly to experience more.Africa is our passion and we get a wonderful pleasure from introducing new guests or helping past visitors to reconnect with all East Africa has to offer.</string>
+    <string name="price_value">3.Price/Value</string>
+    <string name="about_price">You will pay the same(but usually even less)booking your Kenyan,Ugandan,or Tanzania Safari holiday with us by booking directly with East Africa lodges and camps.You do not pay extra for our services,rather we receive discounted rates from these accommodation facilities during the safari,add our markups,and still pass along the net savings to our guests. </string>
+    <string name="about_two_price">In addition,you have the assurance that your trip is being planned and your booking handled by experienced and passionate native safari experts on hand to answer all your questions before you travel.  </string>
+    <string name="about_three_price">Our trips have no hidden costs.We do not quote you a low price and then tell you later that,In addition,you have to pay additional fees or that inter-country transportation is extra.When we quote on a safari tour,practically expect gratuities,personal purchases and perhaps imported liquors are typically included in the costs.We will always inform you upfront on any additional cost.</string>
+    <string name="about_four_price">Finally we do not attempt to offer cut-rate pricing for a lesser quality experience to attract guests; rather,we strive to offer the best value no matter the level of pricing or luxury and we only work with partners in East African who offer search a value.</string>
+
+    //Inquiry details
+    <string name="our_location">Our Location</string>
+    <string name="inquire_here">Inquire Here</string>
+    <string name="title_activity_location">Map</string>
+
+    //Safari Packages
+    <string name="kenya_safari_beach"><![CDATA[Kenya Safari & Beach]]></string>
+    <string name="kenya_safari_beach_packages"><![CDATA[Kenya Safari & Beach Packages]]></string>
+
+    //Nairobi Safaris
+    <string-array name="nairobi_safaris">
+        <item>1 Day Nairobi- Lake Nakuru</item>
+        <item>2 Days 1 night Lake Nakuru  Safaris</item>
+        <item>2 Days 1 night Nairobi-Mount Kenya/Aberdares Safaris</item>
+        <item>2 Days 1 night Nairobi-Amboseli Safaris</item>
+        <item>3 Days 2 nights Nairobi-Amboseli Safaris</item>
+        <item>3 Days 2 nights Nairobi-Lake Naivasha/Lake Nakuru</item>
+        <item>3 Days 2 nights Nairobi-Samburu Safaris</item>
+        <item>3 Days 2 nights Nairobi- Tsavo East West Safaris</item>
+        <item>3 Days 2 nights Nairobi-Masai Mara Safaris</item>
+        <item>4 Days 3 nights Nairobi-Masai Mara Safaris</item>
+        <item>4 Days 3 nights Nairobi-Masai Mara/Lake Nakuru</item>
+        <item>5 Days 4 nights Nairobi-Amboseli/Tsavo West/Tsavo East Safaris</item>
+        <item>5 Days 4 nights Nairobi-Masai Mara/Samburu/Lake Nakuru Safaris </item>
+        <item>5 Days 4 nights Nairobi-Amboseli/Lake Nakuru/Masai Mara Safari</item>
+        <item>6 Days 5 nights Nairobi-Amboseli/Lake Nakuru/Masai Mara Safari</item>
+        <item>8 Days 7 nights Nairobi-Samburu/Sweatwaters/Lake Nakuru/Masai Mara Safari</item>
+
+    </string-array>
+
+    //Tanzania safaris
+    <string-array name="tanzania_safaris">
+        <item>7 Days 6 nights:Ngorongoro,Serengeti and Zanzibar </item>
+        <item>8 Days 7 nights:Kenya and Tanzania combined</item>
+        <item>10 Days 9 nights:Kenya and Tanzania combined</item>
+        <item>12 Days 11 nights:Kenya and Tanzania combined</item>
+        <item>15 Days 14 nights:Kenya and Tanzania combined</item>
+
+
+    </string-array>
+
+    //kenya safari and beach
+    <string-array name="kenya_safaris_and_beach">
+
+        <item>11 Days Kenya Safari Beach</item>
+        <item>12 Days Safari and Beach</item>
+        <item>16 Days Safari and Beach</item>
+
+    </string-array>
+
+    //mombasa day safaris
+    <string-array name="mombasa_day_safaris">
+        <item>Excursions in Mombasa</item>
+        <item>1 Day Tsavo East National Park</item>
+        <item>1 Day Ngutuni safari</item>
+    </string-array>
+
+    mombasa road safaris
+    <string-array name="mombasa_road_safaris">
+        <item>2 Days Tsavo East National Park </item>
+        <item>2 Days Tsavo East West Safari</item>
+        <item>2 Days East Taita Safari</item>
+        <item>3 Days Tsavo East/West Safari</item>
+        <item>3 Days Tsavo East/Amboseli</item>
+        <item>4 Days East/West/Amboseli</item>
+    </string-array>
+
+    //mombasa safari end nairobi
+    <string-array name="mombasa_safari_end_nairobi">
+
+        <item>4 Days Tsavo East/West/Amboseli</item>
+        <item>5 Days Tsavo East/West/Taita Saltlick/Amboseli</item>
+        <item>6 Days Tsavo East/West/Amboseli/Lake Nakuru/Naivasha/Masai Mara</item>
+
+    </string-array>
+
+    //nairobi safari end mombasa
+    <string-array name="nairobi_safari_end_mombasa">
+        <item>4 Days Amboseli/Tsavo West/East Safari</item>
+        <item>5 Days Amboseli/Saltlick/Ngutuni Safari</item>
+        <item>7 Days Masai Mara /Lake Nakuru/Amboseli/Tsavo East/Tsavo West</item>
+
+    </string-array>
+
+    //nairobi day safai=ri
+    <string-array name="nairobi_day_safari">
+        <item>Excursions in Nairobi</item>
+        <item>1 Day Lake Nakuru National Park</item>
+
+    </string-array>
+
+    //discover kenya safaris
+    <string-array name="discover_kenya_safaris">
+        <item>7 Days Masai Mara,Lake Nakuru,Amboseli Safari</item>
+        <item>10 Days Samburu,Sweetwater,Mount Kenya,Lake Nakuru,Masai Mara Safari</item>
+    </string-array>
+
+    //kenya luxury safaris
+    <string-array name="kenya_luxury_safaris">
+        <item>4 Days Fly-In Safaris</item>
+        <item>4 Days of Lewa Conservancy Safari</item>
+        <item>6 Days of Tsavo West &amp; Masai Mara Fly-in Safari</item>
+        <item>7 Days Fly-in Meru/Mara</item>
+        <item>7 Days Fly-in to Sweetwaters &amp; Mara</item>
+        <item>7 Days of Mara &amp;Diani  Luxury</item>
+        <item>7 Days of Olare &amp; Naboisho Mara Conservancies</item>
+        <item>7 Days of Samburu &amp;Mara by Flight</item>
+        <item>9 Days of Amboseli Ol Pejeta &amp;Mara</item>
+        <item>10 Days of Masai Mara &amp; Zanzibar Beach</item>
+    </string-array>
+
+    //tanzania luxury safari
+    <string-array name="tanzania_luxury_safari">
+        <item>4 Days Fly-in Safari to Serengeti</item>
+        <item>7 Days of Serengeti &amp;Zanzibar  </item>
+        <item>14 Days Tanzania Safari &amp; Zanzibar</item>
+        <item>15 Days Kenya &amp; Tanzania Luxury Safari</item>
+
+    </string-array>
+
+    //business travel packages
+    <string-array name="business_travel_packages">
+        <item>4 Days Masai Mara-Naivasha</item>
+        <item>4 Days Tsavo West-Sarova Taita-Tsavo East</item>
+        <item>5 Days Aberdares ,Samburu,,Lake Nakuru,Masai Mara</item>
+    </string-array>
+
+    //masai mara packages
+    <string-array name="masai_mara">
+        <item>Detailed itenerary</item>
+        <item>Highlights</item>
+        <item>Package Details</item>
+        <item>Price</item>
+        <item>Inquiry</item>
+    </string-array>
+
+    //Detailed itinerary of top tours of masai mara
+    <string name="masai_top_tour">The Masai Mara reserve will tickle your thrill spot with kenya richest concentration of wildlife.The lush golden grassland are filled with plentiful zebras,lions and wild beasts with a real-life alacrity of on-camera safari expeditions.This acacia land brings you goosebumps with the cheerful sight of the five giants,the elephants,lions,rhinos,leopards and wild buffaloes.Feel the intriguing sense of nomadic life with captivating day-time activities and splendid overnight stays at camps or lodges on this trip to Masai Mara Safari. </string>
+    <string name="masai_mara_day_one">Day 1;NAIROBI-MASAI MARA</string>
+    <string name="day_one_masai_mara">Pickup from the airport or place of Residence in Nairobi at 7:00am,Your safari takes you to the Masai Mara Reserve and into the domain of the Maasai,Kenya\'s cattle-herding nomads determined to preserve their traditions.The Mara is magnificent,home to Kenya\'s richest concentration of wildlife and regarded by many travelers as an essential stop of any tour of Africa.When westerners think of Africa and safari this is the place they imagine.Three days here will only scratch at the surface of the wonders of Mara.</string>
+    <string name="about_day_one_masai_mara">Arrival in time in Masai Mara for lunch,after lunch embark on a Game Drive until late evening when you settle for dinner and overnight accommodation at either Mara Sopa Lodge,Mara Serena Safari Lodge,Ashnil Mara Tented or Mara Sarova Game Camp.  </string>
+    <string name="masai_mara_day_two">Day 2;MASAI MARA</string>
+    <string name="day_two_masai_mara">Spend the day in Masai Mara,Kenya\'s most popular game reserve where you will have the best opportunity of spotting the Big-Five lion,rhino,buffalo,leopard and elephant,Game Drives are flexible,with the option of going out with the picnic lunch boxes to spend the entire day in the park,or you can choose to have an early morning and late afternoons Game Drives.You will also have an option of visiting a local Masai Village(at a cost of US$20 per person)</string>
+    <string name="about_day_two_mara">All meals and overnight at either Mara Sopa Lodge,Mara Serena Safari Lodge,Ashnil Mara Tented Camp or Mara Sarova Game Camp</string>
+    <string name="masai_mara_day_three">Day 3;MASAI MARA-NAIROBI</string>
+    <string name="day_three_masai_mara">Early morning breakfast at your camp,check of the camp and park and drive to Nairobi arriving in time for lunch.Lunch at carnivore afterwards drop off at your respective hotel or airport at 3:30pm </string>
+    //Highlights mara
+    <string name="highlights_mara">Highlights</string>
+
+    <string-array name="highlights_masai_mara">
+        <item>Day 1;Nairobi-Masai Mara</item>
+        <item>Day 2;Masai Mara National Reserve</item>
+        <item>Day 3;Masai Mara-Nairobi</item>
+    </string-array>
+
+    //Price of Masai Mara
+    <string name="price">Price includes:</string>
+    <string name="include_one">-Rescue Insurance(AAR)</string>
+    <string name="include_two">-Full board accommodation while on safari.</string>
+    <string name="include_three">-Meal plan as described,B=Breakfast,L=Lunch and D=Dinner.</string>
+    <string name="include_four">-Accommodation in double room sharing</string>
+    <string name="include_five">-All park entrance fees to include government taxes and service.</string>
+    <string name="include_six">-English speaking professional driver/guide.</string>
+    <string name="include_seven">-Exclusive transport in a safari tour mini bus 4*4 with a game viewing.</string>
+    <string name="include_eight">-Roof hatch and UHF radio.</string>
+    //Price do not include
+    <string name="price_not_include">Price do not include;</string>
+    <string-array name="things_not_includes">
+        <item>Tips</item>
+        <item>Laundry</item>
+        <item>Drinks</item>
+        <item>Other personal items</item>
+    </string-array>
+    <string name="price_about">Price depends on the level of accommodation as shown below:</string>
+    <string name="option_one">Overnight at Manyatta Camp;</string>
+    <string name="price_one">Package price per person US$650</string>
+    <string name="option_two">Mara Sopa Lodge or OlMoran Luxury Camp or Sentrim Masai Mara Camp</string>
+    <string name="price_two">Rate are in US$ per person US$776  </string>
+    <string name="option_three">Using Sarova Mara game Camp or Ashnil Masai Mara</string>
+    <string name="price_three">Package price per person US$999</string>
+    <string name="option_four">Using Mara Serena Safari Lodge</string>
+    <string name="price_four">Package price per person US$1029</string>
+
+
+    //Lake Nakuru Safari-Masai Mara top safari
+    <string name="lake_nakuru">In Lake Nakuru safari and Masai Mara safari,come prepared to witness mesmerizing flocks of flamingos and world\'s largest populations of Black and White rhinos.Lake Nakuru will safari will entangle your aesthetics in the seductive beauty of Malaika waterfalls.While you amuse your vision with Rothschild giraffes,be sure to summon your luck for a closer view of magnificent lions,leopards and large pythons.Unique wildlife like bats,colobus monkeys,rock hyrax,hippos,impala,striped hyena,reedbuck,waterbuck,all await to witness your cheerful smiles on this holiday!.Don\'t forget to breath while you perceive largest lion prides,herds of zebras,antelopes and cheetahs.  </string>
+    <string name="day_one_nairobi_lake_nakuru_">Pickup from your Nairobi Hotel early morning at 7:00am.Drive to Lake Nakuru arriving in time for lunch and check in at Lake Nakuru lodge.Afternoon game drives across the Pink Lake often referred so due to its Great masses of Flamingos not forgetting the famous white rhino and black rhino found in this park.Dinner and overnight at Lake Nakuru Lodge or Flamingo Hill Tented Camp or Sarova Lion Hill.Full Accommodation too. </string>
+    <string name="about_day_one_lake_nakuru">Lake Nakuru houses Kenya first rhino sanctuary and one of the largest concentration of rhinos in the world and a large population of white rhino.The park features picturesque Malaika waterfalls.Also of an interest is an area of 188km around the lake fenced off as a sanctuary to protect RothChild giraffes.Among predators are lion,leopard and large pythons hiding in the dense woodlands which may occasionally be seen crossing roads and dangling from trees.Others game include Thomson\'s and Grant gazelle,the long-eared leaf-nosed bat,rock hyrax,hippo,and waterbuck;Impala,striped hyena,bat-eared fox,wildcat,reedbuck and golden cat.  </string>
+    <string name="day_two_lake_nakuru_masai_mara">Early Morning breakfast.After breakfast leave Lake Nakuru for Masai Mara arriving in time for lunch.Check in Masai Mara Sopa Lodge and have lunch.Afternoon game drive through the park in search of Lion,Cheetah,Elephant,Buffalo.Dinner at Masai mara sopa lodge or simba lodge or Sentrim Luxury tented camp(This accommodation can be changed in regards to your choices) </string>
+    <string name="about_day_two_masai_mara">The Mara is magnificent,home to Kenya\'s richest concentration of wildlife and regarded to many travellers as an essential stop on any tour of Africa.When westerners think of Africa and safari,this is the place they imagine-golden grassland plains pocked with acacia,wildebeests,zebras,lions,jackals bound by together by the cycle of life and death.Three days here will only scratch at the surface of the wonders of Mara.. </string>
+    <string name="day_three_masai_mara_reserve">Morning and afternoon game drives will lead you to Africa\'s largest lion prides,herds of zebras,antelopes,buffaloes,wildebeests,giraffes,cheetahs and hyenas.Accommodations include en suite restroom facilities and secluded verandahs.In between game drives,lounge at the pool or bar,or enjoy a mid-day nap.Full Board accommodation at Masai mara sopa lodge or simba lodge or Sentrim Luxury tented Camp(This accommodation can be changed in regard to your choice) </string>
+    <string name="day_four_masai_mara_nairobi">Early Morning breakfast at your lodge check out of the lodge,park and drive to Nairobi arriving in time for lunch.Lunch at Carnivore afterward drop off at the Airport for flight back home.</string>
+    //Highlights
+    <string-array name="highlights_lake_nakuru_masai_mara">
+        <item>Day 1;Nairobi-Lake Nakuru National Reserve</item>
+        <item>Day 2;Lake Nakuru National Reserve-Masai Mara National Reserve</item>
+        <item>Day 3;Masai Mara National Reserve</item>
+        <item>Day 4;Masai Mara-Nairobi</item>
+    </string-array>
+
+    //Package details
+    <string name="price_include">Price Include</string>
+    <string name="one">-Transportation in a custom minibus with a pop-up roof ideal for game viewing and sightseeing.</string>
+    <string name="two">-Services of a professional English/French speaking driver/guide.</string>
+    <string name="three">-Full Board accommodation in the lodge/tented camp as mentioned.</string>
+    <string name="four">-Bottled water for use during the safari</string>
+    <string name="five">-Park entrance fees</string>
+    <string name="price_exclude">Price Exclude</string>
+    <string name="one_exlusion">-International Flights</string>
+    <string name="two_exlusion">-Cultural Visits</string>
+    <string name="three_exclusion">-Expenses of personal nature such as visas,travel/baggage insurance,laundry,beverages,tips etc.</string>
+    //Price
+    <string name="about_price_masai_mara">Price depends on the level of accommodation shown below:</string>
+    <string name="accommodation_one">Mara Sopa Lodge or Sentrim Masai Mara Camp</string>
+    <string name="accommodation_two">Lake Nakuru Lodge or Flamingo Hill Tented Camp</string>
+    <string name="rate_one">Rate are in US$ per person US$999</string>
+    <string name="accommodation_three">Accommodation at Sarova Mara Game or Ashnil Masai Mara</string>
+    <string name="accommodation_four">Sarova Lion Hill Lodge Lake Nakuru</string>
+    <string name="rate_two">Package price per person US$1415</string>
+    <string name="accommodation_five">Using Mara Serena Safari Lodge  </string>
+    <string name="accommodation_six">Sarova Lion Hill Lake Nakuru</string>
+    <string name="rate_three">Package Price per person US$1560</string>
+    <string name="title_activity_maps">mapa</string>
+    <string name="details"><u>This is my underlined text</u></string>
+</resources>

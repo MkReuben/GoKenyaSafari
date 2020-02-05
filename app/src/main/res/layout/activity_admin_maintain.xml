@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".Admins.AdminMaintainActivity">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="insideInset"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        >
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+
+            <ImageView
+                android:id="@+id/maintain_image"
+                android:layout_width="290dp"
+                android:layout_height="170dp"
+                android:cropToPadding="false"
+                android:layout_margin="18dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/imageadd"
+                android:layout_marginTop="10dp"
+                android:contentDescription="maintain"
+
+                />
+
+            <EditText
+                android:id="@+id/maintain_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="45dp"
+                android:background="@drawable/input_design"
+                android:hint="PACKAGE NAME"
+                android:inputType="textMultiLine"
+                android:padding="20dp"
+
+                />
+
+            <EditText
+                android:id="@+id/maintain_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:layout_marginTop="20dp"
+                android:hint="TUTION DESCRIPTION"
+                android:layout_marginLeft="45dp"
+                android:padding="20dp"
+                android:layout_marginRight="45dp"
+                android:background="@drawable/input_design"
+
+                />
+            <EditText
+                android:id="@+id/maintain_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:inputType="textMultiLine"
+                android:layout_marginTop="20dp"
+                android:hint="PACKAGE PRICE"
+                android:layout_marginLeft="45dp"
+                android:padding="20dp"
+                android:layout_marginRight="45dp"
+                android:background="@drawable/input_design"
+
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+
+                <Button
+                    android:id="@+id/edit_btn"
+
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:layout_marginTop="20dp"
+                    android:text="APPLY CHANGES"
+                    android:textColor="#FFF"
+                    android:background="@drawable/custom_four_button"
+                    android:padding="17dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/delete_btn"
+
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    android:layout_marginTop="1dp"
+                    android:text="DELETE SAFARI"
+                    android:textColor="#FFF"
+                    android:background="@drawable/custom_four_button"
+                    android:padding="17dp"
+                    android:layout_below="@+id/edit_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>
